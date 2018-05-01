@@ -83,4 +83,6 @@ void			desalocator_useless_mem(void);
 
 void			view_area(void);
 
+void			ll_del_last(void);
+
 #endif

@@ -31,7 +31,7 @@ SRC_M_ITF	= $(addprefix ./$(SRC_M_LST_ITF_PATH)/, $(SRC_M_LST_ITF))
 SRC_M_UTILITIES = add_main_chunk_data.c find_next_size_page.c init_main_control.c   reallocator.c\
 allocator.c           freecator.c           pre_allocation.c      search_in_allocator.c\
 f_malloc.c f_free.c f_realloc.c show_alloc_mem.c alloc_desalloc.c desalocator_useless_mem.c\
-view_area.c
+view_area.c ll_del_last.c
 
 SRC_M_UTILI = $(addprefix ./$(SRC_M_UTILITIES_PATH)/, $(SRC_M_UTILITIES))
 
