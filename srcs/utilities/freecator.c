@@ -25,6 +25,4 @@ void			free_(void *to_find)
 		return ;
 	itf = tmp;
 	itf->type = SUB_FREE_DATA;
-	desalocator_useless_mem();
-	ll_del_last();
 }

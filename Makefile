@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -Wall -Wextra -Werror
+#CFLAGS= -Wall -Wextra -Werror
 LIB_PATH=libft
 INC=includes
 INC_PATH= ./$(LIB_PATH)/$(INC)

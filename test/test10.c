@@ -14,8 +14,13 @@ int main()
 		free(addr);
 		i++;
 	}
-	view_area();
+	while (i < 1200)
+	{
+		malloc(1024);
+		i++;
+	}
 	//show_alloc_mem();
 	desalocator_useless_mem();
+	view_area();
 	return (0);
 }

@@ -87,7 +87,7 @@ void			*alloc_new_zone(void *data, size_t size, size_t size_data)
 			control.mcr.actual_size += SIZE_STRUCT_NEXT;
 			itf = (t_ll_itf *)(control.mcr.pos + control.mcr.actual_size);
 			core_encaps_elem(itf, &control);
-			if (itf->type == EMPTY)
+			if (itf->type == EMPTY || itf->type == 4)
 			{
 				if (core_allocator(&control, itf, size_data, size))
 					return (itf->next);
